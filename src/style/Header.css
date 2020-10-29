@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+}
+
+.header_icon {
+  object-fit: contain;
+  height: 5rem;
+  margin-left: 0.8rem;
+}
+
+.header_center {
+  display: flex;
+  flex: 0.83;
+  align-items: center;
+  max-width: fit-content;
+  padding: 0.6em;
+  height: 1.6em;
+  border: 1px solid grey;
+  border-radius: 999px;
+}
+
+.header_center > input {
+    border: none;
+    width: 17rem;
+    outline-width: 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.header_right {
+  display: flex;
+  flex: 0.3;
+  justify-content: space-around;
+  width: 15vw;
+  margin-right: 5rem;
+}
